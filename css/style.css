@@ -1,0 +1,33 @@
+*{
+  box-sizing:border-box;
+}
+h1{
+  text-align: center;
+}
+html{
+  width: 100%;
+}
+.boxes{
+  border: 2px solid black;
+  height: 100px;
+  margin: 20px;
+  width: 100px;
+
+}
+.hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.allSlots {
+  display: flex;
+}
+
+#displayBet {
+  border: 2px solid black;
+  margin: 10px;
+}
+img{
+  height:100px;
+}
